@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	height: 150px;
+	display: flex;
+	background-color: #87f1ff;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+header .ST {
+	width: 100px;
+	flex-grow: 1;
+	background-color: #f9ff87;
+	margin: 10px;
+	border: 10px solid black;
+	border-radius: 80px;
+}
+header .ST:hover {
+	background-color: #f07d9b;
+	border: 10px solid #5f57ff;
+}
+header .ST  a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
